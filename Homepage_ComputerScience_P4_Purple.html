@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5b21b6">
+<meta name="description" content="เด็กวัดเด็กโค้ด ห้องเรียนวิทยาการคำนวณ ป.4 โรงเรียนวัดบึงบ้านสนม บทเรียนออนไลน์ 20 ชั่วโมง พร้อมแบบทดสอบและกิจกรรม">
+<title>เด็กวัดเด็กโค้ด | วิทยาการคำนวณ ป.4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--violet:#6d28d9;--deep:#35116e;--indigo:#4338ca;--ink:#25173b;--muted:#675b78;--pale:#f7f4ff;--stroke:#e9e1fa;--white:#fff;--radius:22px;--shadow:0 15px 42px rgba(58,28,112,.09)}
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:#fbfaff;color:var(--ink);font-family:Sarabun,"Noto Sans Thai",Tahoma,Arial,sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #e879f9;outline-offset:3px}button{cursor:pointer}.container{max-width:1150px;padding:0 24px;margin:auto}
+header{background:#fffdfef5;backdrop-filter:blur(16px);border-bottom:1px solid #eee8fb;position:sticky;top:0;z-index:15}header .container{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{display:flex;align-items:center;gap:11px;min-width:0}.brand-icon{display:grid;place-items:center;width:44px;height:44px;background:linear-gradient(145deg,#5b21b6,#a855f7);color:white;border-radius:14px;font-size:23px;box-shadow:0 8px 18px #6d28d93a}.brand span{display:block;line-height:1.15}.brand b{font-weight:800;font-size:18px}.brand small{display:block;font-size:12px;color:#7a6b91;font-weight:600;margin-top:5px}.nav{display:flex;align-items:center;gap:23px;font-weight:700;color:#4b4062;font-size:14px}.nav a:not(.nav-button):hover{color:var(--violet)}.nav-button{display:inline-flex;align-items:center;justify-content:center;padding:10px 18px;border-radius:12px;background:var(--violet);color:#fff;box-shadow:0 6px 16px #6d28d930}.nav-button:hover{background:#5b21b6}
+.hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(circle at 88% 15%,#9b5af6 0,transparent 35%),linear-gradient(128deg,#38116f 0%,#5b21b6 48%,#7c3aed 100%)}.hero::after{position:absolute;content:"";width:450px;height:450px;border-radius:50%;border:78px solid #ffffff10;bottom:-290px;right:-80px;pointer-events:none}.hero::before{position:absolute;content:"";width:240px;height:240px;border-radius:50%;background:#ffffff0d;top:-100px;left:44%;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;min-height:492px;padding-top:62px;padding-bottom:70px;position:relative;z-index:1}.hero h1{font-size:clamp(36px,4.7vw,60px);line-height:1.24;font-weight:800;letter-spacing:-.5px;margin:18px 0 20px}.hero h1 strong{color:#efe1ff}.hero p{max-width:600px;opacity:.92;font-size:18px;margin:0 0 26px}.kicker{display:inline-block;background:#ffffff1e;border:1px solid #ffffff44;color:white;font-weight:700;padding:7px 15px;border-radius:25px;font-size:13px;letter-spacing:.15px}.hero-buttons{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:47px;border-radius:13px;font-weight:800;padding:12px 20px;border:1px solid transparent;font-size:15px;transition:transform .17s,background .17s,box-shadow .17s}.btn:hover{transform:translateY(-2px)}.btn-white{background:white;color:#52229b;box-shadow:0 10px 25px #2c125344}.btn-outline{border-color:#ffffff75;color:#fff;background:#ffffff13}.btn-purple{background:#6d28d9;color:white;box-shadow:0 9px 18px #6d28d925}.btn-purple:hover{background:#5b21b6}.btn-soft{background:#f2eaff;color:#5f25bb}
+.hero-art{position:relative;isolation:isolate}.orbit{position:absolute;z-index:-1;background:#ffffff18;border-radius:999px}.orbit.a{width:180px;height:180px;left:-55px;top:-45px}.orbit.b{width:100px;height:100px;right:-22px;bottom:-35px}.preview{background:#ffffff;box-shadow:0 30px 70px #270b5290;border:1px solid #ffffff80;color:#24133e;border-radius:24px;overflow:hidden;transform:rotate(1.3deg)}.preview-top{display:flex;align-items:center;gap:7px;border-bottom:1px solid #efebf6;padding:16px 19px;background:#fbfaff}.dot{width:9px;height:9px;border-radius:50%;background:#e4d8f7}.dot:first-child{background:#faafc6}.dot:nth-child(2){background:#ffd99a}.dot:nth-child(3){background:#b6e4ca}.preview-title{margin-left:auto;font-size:11px;color:#887a9a;font-weight:800}.preview-body{padding:23px}.preview-head{font-size:14px;font-weight:800;color:#463367;margin-bottom:15px}.preview-steps{display:grid;gap:10px}.step-card{display:flex;align-items:center;gap:12px;padding:11px 12px;border-radius:14px;background:#f8f5ff;border:1px solid #eee8fc}.step-num{display:grid;place-items:center;width:39px;height:39px;border-radius:12px;background:#ede3ff;color:#6b21bb;font-size:20px;flex:none}.step-card b{font-size:13px;display:block}.step-card small{font-size:11px;color:#7c6d8e}.preview-bottom{margin-top:16px;background:#f3efff;border-radius:12px;padding:12px 14px;display:flex;justify-content:space-between;gap:8px;align-items:center;color:#5c2bad;font-size:12px;font-weight:800}
+.metrics{position:relative;margin-top:-35px;z-index:3}.metrics-inner{display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border:1px solid var(--stroke);box-shadow:var(--shadow);border-radius:20px;overflow:hidden}.metric{padding:22px;display:flex;align-items:center;justify-content:center;gap:14px}.metric:not(:last-child){border-right:1px solid var(--stroke)}.metric .big{color:#6326bd;font-size:33px;line-height:1;font-weight:800}.metric span{display:block;font-size:13px;color:#746583;font-weight:700;line-height:1.5}
+section.block{padding:78px 0}.section-intro{text-align:center;max-width:770px;margin:0 auto 34px}.eyebrow{display:inline-block;font-size:13px;font-weight:800;text-transform:uppercase;color:#6d28d9;background:#f1eaff;border-radius:30px;padding:5px 15px;margin-bottom:10px}.section-intro h2{font-size:clamp(25px,3.4vw,36px);margin:7px 0 10px;line-height:1.35}.section-intro p{margin:0;color:var(--muted);font-size:16px}
+.roles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.role{border:1px solid var(--stroke);background:#fff;border-radius:22px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:283px}.role .icon{display:grid;place-items:center;border-radius:17px;width:54px;height:54px;background:#f0e6ff;font-size:26px}.role:nth-child(2) .icon{background:#e8edff}.role:nth-child(3) .icon{background:#faeaff}.role h3{margin:17px 0 8px;font-size:21px}.role p{margin:0 0 18px;color:#71637e;font-size:14px;flex:1}.role .btn{width:100%}
+.units-section{background:linear-gradient(180deg,#f7f3ff,#fdfcff)}.units{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.unit{background:white;border:1px solid #e5dbf5;border-radius:19px;overflow:hidden;box-shadow:0 5px 16px #3b1b7210}.unit:last-child:nth-child(odd){grid-column:1/-1}.unit summary{padding:18px 20px;display:flex;align-items:center;gap:14px;cursor:pointer;list-style:none}.unit summary::-webkit-details-marker{display:none}.unit summary:hover{background:#faf8ff}.uicon{font-size:22px;display:grid;place-items:center;background:#f0e8ff;width:47px;height:47px;flex:none;border-radius:14px}.unit-title{flex:1}.unit-title b{font-size:16px;display:block}.unit-title small{display:block;color:#7a6b8a;margin-top:2px}.chev{font-size:23px;line-height:1;color:#7b38cd;transition:transform .18s}.unit[open] .chev{transform:rotate(45deg)}.lesson-list{list-style:none;margin:0;padding:4px 20px 20px;border-top:1px solid #efe8f8}.lesson-list li{display:flex;gap:11px;align-items:baseline;padding:9px 0;color:#584968;border-bottom:1px dashed #eee5f8;font-size:14px}.lesson-list li:last-child{border:0;padding-bottom:0}.lesson-no{color:#7744ca;font-weight:800;min-width:43px}
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.how{padding:23px 17px;border:1px solid var(--stroke);border-radius:20px;background:#fff}.how .count{display:grid;place-items:center;width:38px;height:38px;background:#ede4fd;border-radius:12px;color:#5f26af;font-weight:800}.how h3{font-size:17px;margin:14px 0 7px}.how p{font-size:13px;color:#71637e;margin:0}
+.notice{border:1px solid #e6d7fe;background:#f9f5ff;border-radius:18px;padding:18px 22px;color:#544269;margin-top:30px;font-size:14px}.notice b{color:#4d2390}.cta{background:linear-gradient(116deg,#40147f,#752de1);padding:50px 30px;border-radius:25px;display:flex;align-items:center;justify-content:space-between;gap:25px;color:white;box-shadow:0 18px 36px #54219b35}.cta h2{margin:0 0 8px;font-size:29px}.cta p{margin:0;opacity:.86}.footer{margin-top:60px;padding:24px 0;border-top:1px solid #eae3f5;text-align:center;color:#82718d;font-size:13px}.footer b{color:#57416d}.footer a{text-decoration:underline;text-underline-offset:2px}
+@media(max-width:970px){.hero-grid{gap:25px}.nav{gap:12px}.roles{gap:12px}.role{padding:19px}}
+@media(max-width:760px){header .container{min-height:70px}.brand b{font-size:16px}.brand small{font-size:10px}.nav a:not(.nav-button){display:none}.nav-button{font-size:12px;padding:9px 12px}.hero-grid{grid-template-columns:1fr;padding-top:42px;padding-bottom:82px;gap:35px}.hero h1{font-size:clamp(34px,7vw,48px)}.hero p{font-size:16px}.hero-art{max-width:500px;width:100%;margin:auto}.metrics{margin-top:-28px}.roles{grid-template-columns:1fr}.role{min-height:0}.units{grid-template-columns:1fr}.unit:last-child:nth-child(odd){grid-column:auto}.how-grid{grid-template-columns:repeat(2,1fr)}.cta{flex-direction:column;align-items:flex-start}section.block{padding:60px 0}}
+@media(max-width:480px){.container{padding:0 16px}.brand-icon{width:38px;height:38px;font-size:20px}.brand b{font-size:14px}.nav-button{padding:8px 9px;white-space:nowrap}.hero-grid{padding-top:34px}.hero h1{font-size:35px}.hero p{font-size:15px}.hero-buttons .btn{flex:1}.metrics-inner{grid-template-columns:repeat(3,1fr)}.metric{padding:15px 5px;display:block;text-align:center}.metric .big{font-size:27px}.metric span{font-size:11px}.how-grid{grid-template-columns:1fr}.cta{padding:29px 20px}.cta h2{font-size:25px}.preview{transform:none}.preview-body{padding:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<!-- ใส่ลิงก์ Apps Script ของโรงเรียนเพียงตำแหน่งเดียวที่ APP_SCRIPT_URL ด้านล่าง -->
+<header>
+ <div class="container">
+  <a class="brand" href="#home" aria-label="ไปหน้าแรก"><div class="brand-icon" aria-hidden="true">💻</div><span><b>เด็กวัดเด็กโค้ด</b><small>โรงเรียนวัดบึงบ้านสนม</small></span></a>
+  <nav class="nav" aria-label="เมนูหลัก"><a href="#about">ผู้ใช้งาน</a><a href="#lessons">บทเรียน</a><a href="#guide">วิธีเข้าเรียน</a><a class="nav-button" href="#about">เข้าสู่ระบบ ↗</a></nav>
+ </div>
+</header>
+<main id="home">
+ <section class="hero">
+  <div class="container hero-grid">
+   <div class="hero-copy">
+    <div class="kicker">✦ ห้องเรียนออนไลน์ • ปีการศึกษา 2569</div>
+    <h1>เด็กวัดเด็กโค้ด<br><strong>วิทยาการคำนวณ ป.4</strong></h1>
+    <p>เรียนสนุก คิดอย่างเป็นขั้นตอน ฝึกเขียนโปรแกรม และใช้เทคโนโลยีอย่างปลอดภัย พร้อมแบบทดสอบก่อน–หลังเรียนและกิจกรรมในทุกชั่วโมง</p>
+    <div class="hero-buttons"><a href="#about" class="btn btn-white">🚀 เริ่มเรียนออนไลน์</a><a href="#lessons" class="btn btn-outline">ดูบทเรียนทั้ง 20 ชั่วโมง</a></div>
+   </div>
+   <div class="hero-art" aria-label="ภาพประกอบเส้นทางการเรียนรู้ 5 หน่วย">
+    <div class="orbit a"></div><div class="orbit b"></div>
+    <div class="preview">
+      <div class="preview-top"><i class="dot"></i><i class="dot"></i><i class="dot"></i><span class="preview-title">แผนการเรียนรู้ของเรา</span></div>
+      <div class="preview-body">
+       <div class="preview-head">🗺️ เส้นทาง 5 หน่วยการเรียนรู้</div>
+       <div class="preview-steps">
+        <div class="step-card"><div class="step-num">🧩</div><div><b>คิดเชิงตรรกะและแก้ปัญหา</b><small>ชั่วโมงที่ 1–4</small></div></div>
+        <div class="step-card"><div class="step-num">🎮</div><div><b>ออกแบบและเขียนโปรแกรม</b><small>ชั่วโมงที่ 5–10</small></div></div>
+        <div class="step-card"><div class="step-num">🔎</div><div><b>อินเทอร์เน็ตและการประเมินข้อมูล</b><small>ชั่วโมงที่ 11–13</small></div></div>
+        <div class="step-card"><div class="step-num">📊</div><div><b>รวบรวมและนำเสนอข้อมูล</b><small>ชั่วโมงที่ 14–17</small></div></div>
+        <div class="step-card"><div class="step-num">🛡️</div><div><b>ความปลอดภัยดิจิทัล</b><small>ชั่วโมงที่ 18–20</small></div></div>
+       </div>
+       <div class="preview-bottom"><span>✨ เรียนรู้ • ทดลอง • สร้างสรรค์</span><span>ป.4</span></div>
+      </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <div class="container metrics" aria-label="ข้อมูลหลักสูตร"><div class="metrics-inner"><div class="metric"><div class="big">20</div><span>ชั่วโมงเรียน<br>ออนไลน์</span></div><div class="metric"><div class="big">5</div><span>หน่วยการ<br>เรียนรู้</span></div><div class="metric"><div class="big">3</div><span>ประเภทบัญชี<br>ผู้ใช้งาน</span></div></div></div>
+ <section class="block" id="about"><div class="container">
+  <div class="section-intro"><span class="eyebrow">เลือกทางเข้าใช้งาน</span><h2>เรียนรู้และติดตามผลได้ทุกที่</h2><p>เลือกประเภทผู้ใช้งาน แล้วเข้าสู่ระบบบทเรียนออนไลน์ด้วยบัญชีที่ครูกำหนด</p></div>
+  <div class="roles">
+    <article class="role"><div class="icon">🧑‍🏫</div><h3>สำหรับครูผู้สอน</h3><p>จัดการบัญชีนักเรียน ตรวจใบกิจกรรม ให้คะแนน ประเมินสมรรถนะและคุณลักษณะ พร้อมวิเคราะห์ผลรายบุคคล</p><a class="btn btn-purple" data-app="teacher" href="#connect">เข้าสู่ระบบครู ↗</a></article>
+    <article class="role"><div class="icon">👩‍💻</div><h3>สำหรับนักเรียน</h3><p>อ่านสรุปบทเรียน ทำแบบทดสอบก่อน–หลังเรียน ส่งใบกิจกรรม และติดตามผลการเรียนของตนเอง</p><a class="btn btn-purple" data-app="student" href="#connect">เข้าสู่ระบบนักเรียน ↗</a></article>
+    <article class="role"><div class="icon">👨‍👩‍👧</div><h3>สำหรับผู้ปกครอง</h3><p>ติดตามเวลาเรียน คะแนน และความก้าวหน้าของบุตรหลาน ผ่านมือถือด้วยบัญชีที่ได้รับสิทธิ์</p><a class="btn btn-purple" data-app="parent" href="#connect">เข้าสู่ระบบผู้ปกครอง ↗</a></article>
+  </div>
+ </div></section>
+ <section class="block units-section" id="lessons"><div class="container">
+  <div class="section-intro"><span class="eyebrow">บทเรียนของเรา</span><h2>5 หน่วยการเรียนรู้ • 20 ชั่วโมง</h2><p>คลิกแต่ละหน่วยเพื่อดูหัวข้อการเรียนรู้รายชั่วโมง แล้วเลือกเข้าสู่ระบบเพื่อเริ่มบทเรียนจริง</p></div>
+  <div class="units">
+   <details class="unit" open><summary><span class="uicon">🧩</span><span class="unit-title"><b>หน่วยที่ 1 การคิดเชิงตรรกะและแก้ปัญหา</b><small>ชั่วโมงที่ 1–4 • 4 ชั่วโมง</small></span><span class="chev">+</span></summary><ol class="lesson-list"><li><span class="lesson-no">ชม. 1</span>ความหมายของอัลกอริทึมและการเรียงลำดับภาพ</li><li><span class="lesson-no">ชม. 2</span>การใช้เหตุผลเชิงตรรกะแก้ปัญหา</li><li><span class="lesson-no">ชม. 3</span>การเขียนผังงานอย่างง่าย</li><li><span class="lesson-no">ชม. 4</span>เกมแก้ปัญหาและคาดการณ์ผลลัพธ์</li></ol></details>
+   <details class="unit"><summary><span class="uicon">🎮</span><span class="unit-title"><b>หน่วยที่ 2 การออกแบบและเขียนโปรแกรม</b><small>ชั่วโมงที่ 5–10 • 6 ชั่วโมง</small></span><span class="chev">+</span></summary><ol class="lesson-list"><li><span class="lesson-no">ชม. 5</span>รู้จักโปรแกรมแบบบล็อก</li><li><span class="lesson-no">ชม. 6</span>คำสั่งตามลำดับ</li><li><span class="lesson-no">ชม. 7</span>คำสั่งวนซ้ำ</li><li><span class="lesson-no">ชม. 8</span>เงื่อนไขเบื้องต้น</li><li><span class="lesson-no">ชม. 9</span>ตรวจหาข้อผิดพลาดและแก้ไข</li><li><span class="lesson-no">ชม. 10</span>สร้างโครงงานเกมอย่างง่าย</li></ol></details>
+   <details class="unit"><summary><span class="uicon">🔎</span><span class="unit-title"><b>หน่วยที่ 3 อินเทอร์เน็ตและการประเมินข้อมูล</b><small>ชั่วโมงที่ 11–13 • 3 ชั่วโมง</small></span><span class="chev">+</span></summary><ol class="lesson-list"><li><span class="lesson-no">ชม. 11</span>ค้นหาความรู้บนอินเทอร์เน็ต</li><li><span class="lesson-no">ชม. 12</span>ตรวจสอบความน่าเชื่อถือของข้อมูล</li><li><span class="lesson-no">ชม. 13</span>ใช้ข้อมูลอย่างรับผิดชอบและอ้างอิงแหล่งข้อมูล</li></ol></details>
+   <details class="unit"><summary><span class="uicon">📊</span><span class="unit-title"><b>หน่วยที่ 4 การรวบรวมและนำเสนอข้อมูล</b><small>ชั่วโมงที่ 14–17 • 4 ชั่วโมง</small></span><span class="chev">+</span></summary><ol class="lesson-list"><li><span class="lesson-no">ชม. 14</span>รวบรวมข้อมูลจากการสำรวจ</li><li><span class="lesson-no">ชม. 15</span>จัดหมวดหมู่และสร้างตาราง</li><li><span class="lesson-no">ชม. 16</span>วิเคราะห์ข้อมูลและสร้างกราฟ</li><li><span class="lesson-no">ชม. 17</span>นำเสนอข้อมูลด้วยสื่อดิจิทัล</li></ol></details>
+   <details class="unit"><summary><span class="uicon">🛡️</span><span class="unit-title"><b>หน่วยที่ 5 ความปลอดภัยและพลเมืองดิจิทัล</b><small>ชั่วโมงที่ 18–20 • 3 ชั่วโมง</small></span><span class="chev">+</span></summary><ol class="lesson-list"><li><span class="lesson-no">ชม. 18</span>ข้อมูลส่วนตัวและรหัสผ่านปลอดภัย</li><li><span class="lesson-no">ชม. 19</span>มารยาท สิทธิ และภัยออนไลน์</li><li><span class="lesson-no">ชม. 20</span>โครงงานพลเมืองดิจิทัลและทบทวน</li></ol></details>
+  </div>
+ </div></section>
+ <section class="block" id="guide"><div class="container">
+  <div class="section-intro"><span class="eyebrow">วิธีเข้าใช้งาน</span><h2>เข้าเรียนง่าย ๆ ใน 4 ขั้นตอน</h2><p>ออกแบบให้เด็กประถมและผู้ปกครองใช้งานผ่านโทรศัพท์มือถือได้สะดวก</p></div>
+  <div class="how-grid"><div class="how"><span class="count">1</span><h3>รับรหัสจากครู</h3><p>ครูจัดเตรียมชื่อผู้ใช้และรหัสผ่านเฉพาะบุคคลให้กับนักเรียน</p></div><div class="how"><span class="count">2</span><h3>เลือกประเภทผู้ใช้</h3><p>กดปุ่มครู นักเรียน หรือผู้ปกครอง แล้วเข้าสู่ระบบ</p></div><div class="how"><span class="count">3</span><h3>เรียนและทำกิจกรรม</h3><p>เปิดบทเรียน ทำข้อสอบก่อน–หลังเรียน และส่งใบกิจกรรม</p></div><div class="how"><span class="count">4</span><h3>ตรวจสอบผลการเรียน</h3><p>ติดตามคะแนน เวลาเรียน และความก้าวหน้าที่ระบบแสดงตามสิทธิ์</p></div></div>
+  <div class="notice"><b>🔒 ความเป็นส่วนตัว:</b> อย่าเผยแพร่รหัสผ่านนักเรียนหรือข้อมูลคะแนนรายบุคคลบนหน้าเว็บสาธารณะ หน้าแรกนี้เป็นหน้าประชาสัมพันธ์ ส่วนข้อมูลจริงอยู่ในระบบ Apps Script ที่ต้องเข้าสู่ระบบตามสิทธิ์</div>
+ </div></section>
+ <section class="container" id="connect"><div class="cta"><div><h2>พร้อมเริ่มเรียนรู้แล้วหรือยัง?</h2><p>เปิดระบบห้องเรียนออนไลน์วิทยาการคำนวณ ป.4</p></div><a class="btn btn-white" data-app="student" href="#connect">เปิดห้องเรียนออนไลน์ ↗</a></div></section>
+</main>
+<footer class="footer"><div class="container"><b>เด็กวัดเด็กโค้ด · โรงเรียนวัดบึงบ้านสนม</b><div>วิทยาการคำนวณ ชั้นประถมศึกษาปีที่ 4 · ปีการศึกษา 2569</div><div>ออกแบบเพื่อการเรียนรู้และการเข้าถึงอย่างปลอดภัย</div></div></footer>
+<script>
+// =============================================================
+// แก้ไขบรรทัดถัดไปเพียงบรรทัดเดียว: ใส่ลิงก์ Apps Script /exec
+// ตัวอย่าง: const APP_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycb.../exec';
+// =============================================================
+const APP_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwY_a5XCkJu4A4CnMUx2hxqD0dTP1IIy6EkZp5PsoZTxTiNrM3CxHewIgt_mj_r_ahy/exec';
+
+const appIsConfigured = /^https:\/\/script\.google\.com\/macros\/s\/[^/]+\/exec(?:[?#].*)?$/.test(APP_SCRIPT_URL.trim());
+document.querySelectorAll('[data-app]').forEach(link => {
+  if (appIsConfigured) {
+    link.href = APP_SCRIPT_URL.trim();
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.title = 'เปิดหน้าเข้าสู่ระบบ แล้วเลือกประเภทผู้ใช้ตามปุ่มที่กด';
+  } else {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      alert('ยังไม่ได้ใส่ลิงก์ห้องเรียนออนไลน์\\nกรุณาแก้ APP_SCRIPT_URL ในไฟล์ HTML ให้เป็นลิงก์ Apps Script ที่ลงท้ายด้วย /exec');
+    });
+  }
+});
+</script>
+</body>
+</html>
